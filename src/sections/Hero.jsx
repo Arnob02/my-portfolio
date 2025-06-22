@@ -4,8 +4,8 @@ import gsap from "gsap";
 import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
-//import HeroExperience from "../components/models/hero_models/HeroExperience";
-import HeroExperience from "../components/HeroModels/HeroExperience";
+import HeroExperience from "../components/models/hero_models/HeroExperience";
+
 const Hero = () => {
   useGSAP(() => {
     gsap.fromTo(
@@ -51,7 +51,7 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Arnob, a developer based in Australia with a passion for
+              Hi, I’m Arnob, a developer based in Croatia with a passion for
               code.
             </p>
 
